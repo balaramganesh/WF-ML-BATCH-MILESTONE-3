@@ -1,1 +1,6 @@
 # WF-ML-BATCH-MILESTONE-3
+This project is a brief attempt in classifying the amazon stock based on whether the next day's opening price will be greater than, or less or equal to the present day's closing price. Stock prices have been considered ever since Amazon got listed, around mid of 1997.
+
+One challenge in gathering fundamental data such as P/E ratio over time was that all resources I encountered require premium membership to access it, even python libraries such as yfinance and quandl. Another is that webscrapping this data is possible, but its available in very limited numbers and does not make sense in taking it into consideration for constructing the classification dataset. 
+
+Another challenge was in the classification algorithms itself since their testing dataset performance was poor. One direction of slight improvement could be in optimizing the algorithms' parameters. Another could be in gathering more features that contribute significant variance to the current dataset. Nevertheless, the current work done is a stepping stone to more advanced stock price prediction analysis. 
